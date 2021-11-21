@@ -26,6 +26,7 @@ const Header:FC = ():JSX.Element => {
     }
     return (
         <header>
+          <a rel="stylesheet" href="https://github.com/SerhiiCheremisin/simpleweatherappdemo">Link to code</a>
          <div className="h1"><h1>Simple weather app</h1></div>
             <form onSubmit={e => formHandler(e)} action="#">
                 <label htmlFor="search" >Chose City</label>
