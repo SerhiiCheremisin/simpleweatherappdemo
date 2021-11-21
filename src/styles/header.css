@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  padding: 3rem 30%;
+}
+header .h1 {
+  display: flex;
+}
+header .h1 h1 {
+  font-size: 5rem;
+}
+header form {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+header form label {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+header form input {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+header form button {
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 50px;
+  transition: 0.5s ease;
+}
+header form button:hover {
+  background-color: #f11414;
+  outline: none;
+}
+
+/*# sourceMappingURL=header.css.map */

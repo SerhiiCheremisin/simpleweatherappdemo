@@ -1,0 +1,76 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family: 'Fruktur', cursive;
+  background-color: antiquewhite;
+}
+
+.app-wrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.respond-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  height: 65vh;
+
+  h2{
+    font-size: 5rem;
+  }
+
+    .response-ul{
+      display: flex;
+      flex-direction: column;
+
+      li{
+        list-style: none;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+      }
+    }
+
+  button{
+     width: 15rem;
+     height: 4rem;
+     background-color: #ee1616;
+     cursor: pointer;
+     font-size: 2rem;
+   }
+
+}
+
+.suggested-cities{
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  span{
+    display: flex;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+  ul{
+   display: flex;
+   justify-content: space-between;
+   gap: 3rem;
+    li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 3rem;
+    transition: .5s ease;
+
+      &:hover{
+      color: #ee1616;
+      }
+    }
+  }
+}
+

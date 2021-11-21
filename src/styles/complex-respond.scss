@@ -1,0 +1,50 @@
+
+.complex-Wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 3rem;
+
+  .left-block{
+     display: flex;
+     width: 70%;
+    justify-content: space-between;
+    ul{
+     display: flex;
+     flex-direction: column;
+     width: 40%;
+      li{
+        list-style: none;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+    }
+     .weather-img{
+        display: flex;
+       justify-content: center;
+       width: 60%;
+     }
+  }
+
+  .right-block{
+    display: flex;
+    width: 30%;
+    ul{
+      display: flex;
+      flex-direction: column;
+      li{
+        list-style: none;
+        font-size: 4rem;
+        cursor: pointer;
+        transition: .5s ease;
+
+      &:hover{
+         background-color: teal;
+       }
+      }
+    }
+
+
+  }
+
+}
